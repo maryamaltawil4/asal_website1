@@ -1,0 +1,55 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+ :root {
+    --color_blue: #37447E;
+  
+  }
+.section1{
+    padding: 0px 165px;
+    background-image: url("../img/Path.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: 140% 40%;
+    
+}
+.section1 nav .nav-item {
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+
+margin-left: 14px;
+margin-right: 24px;
+color: var( --color_blue);
+
+}
+.section1 nav .nav-item a {
+
+    color: var( --color_blue);
+   
+    }
+.navbar-brand{
+font-size: 26px;
+font-style: normal;
+font-weight: 900;
+line-height: 38px; /* 146.154% */
+margin-left: 144px;
+margin-right: 38px;
+}
+.btn{
+    width: 160px;
+    background-color: var( --color_blue);
+    border-radius: 0%;
+    color: var(--colour-secondary-white-100-general, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+/* Medium 12 */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 150% */
+    
+}
+
