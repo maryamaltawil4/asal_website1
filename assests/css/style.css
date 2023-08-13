@@ -10,10 +10,11 @@
     background-attachment: fixed;
     height: 100vh;
     background-position: 140% 40%;
+    font-family: 'Roboto', sans-serif;
+    color: var( --color_blue);
     
 }
 .section1 nav .nav-item {
-font-family: 'Roboto', sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -43,13 +44,36 @@ margin-right: 38px;
     border-radius: 0%;
     color: var(--colour-secondary-white-100-general, #FFF);
 text-align: center;
-font-feature-settings: 'clig' off, 'liga' off;
-/* Medium 12 */
-font-family: Roboto;
 font-size: 12px;
 font-style: normal;
 font-weight: 500;
 line-height: 18px; /* 150% */
-    
+margin-right: 10px;
+}
+.first{
+    margin-left: 14px;
+    padding: 8px;
+
+}
+
+.title{
+color: var(--colour-main-blue-900, #091133);
+font-size: 46px;
+font-style: normal;
+font-weight: 500;
+line-height: 66px; /* 132% */
+letter-spacing: 1px;
+}
+.learn{
+color: var(--colour-main-blue-900, #091133);
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 162.5% */
+background: none;
+width: 160px;
+border: 2px solid #091133 ;
+
 }
 
