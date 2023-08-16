@@ -3,6 +3,7 @@
     --color_blue: #37447E;
   
   }
+  /* start section 1 */
   .section1{
     background-image: url("../img/Path.png");
     background-repeat: no-repeat;
@@ -12,6 +13,7 @@
     height: 100vh;
     padding: 0px 165px;
 }
+
 .section1 ,.section2 , .section3{
     background-position: 140% 40%;
     font-family: 'Roboto', sans-serif;
@@ -23,32 +25,28 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 171.429% */
-
 margin-left: 14px;
 margin-right: 24px;
 color: var( --color_blue);
 
 }
 .section1 nav .nav-item a {
-
     color: var( --color_blue);
-   
-    }
-.navbar-brand{
-font-size: 26px;
-font-style: normal;
-font-weight: 900;
-line-height: 38px; /* 146.154% */
-margin-left: 144px;
-margin-right: 38px;
+ }
+
+.navbar-brand {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38px; /* 146.154% */
+    margin-left: 144px;
+    margin-right: 38px;
 }
 p , pre{
 color: var(--colour-main-blue-400, #6F7CB2);
-font-feature-settings: 'clig' off, 'liga' off;
 /* Regular 16 */
 font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
 }
@@ -59,7 +57,6 @@ line-height: 26px; /* 162.5% */
     color: var(--colour-secondary-white-100-general, #FFF);
 text-align: center;
 font-size: 12px;
-font-style: normal;
 font-weight: 500;
 line-height: 18px; /* 150% */
 margin-right: 10px;
@@ -101,6 +98,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
+
 }
 .icon p {
     font-size: 12px;
@@ -115,10 +113,75 @@ line-height: 26px; /* 162.5% */
 }
 /* end of section 2 */
 /* start of section 3 */
-.section3 .text{
-    margin-right: -141px;
-}
 .section3 img{
     height: 100%;
     width: 100%;
 }
+/* start section4  */
+.section4 {
+    background-image:url("../img/Rectangle.png") ;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+   
+
+
+
+
+}
+.section4 .first{
+    margin: auto;
+
+  
+        
+} 
+.section4 .first p{
+    width:50%;
+    margin: auto;
+    text-align: center;
+  
+        
+}
+.section4  p{
+
+    font-size: 14px;
+        
+}
+.section4 h2{
+    margin-top: 100px;;
+}
+.section4 li {
+    float: left;
+  }
+  
+.section4 li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .section4 .footer{
+    background-color: #E7ECFF;
+  }
+  .section4 .icon i{
+    font-size: 14px;
+    margin: 8px;
+  }
+  .footer{
+    padding: 0px 165px;
+    text-align: center;
+    
+  }
+  .footer .partone{
+    padding-top: 40px;
+  }
+  .icon{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.line-1 {
+    width:100%; 
+    height:1px; 
+    background: #CDD1D4;
+  }
