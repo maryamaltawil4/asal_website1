@@ -185,3 +185,55 @@ align-items: center;
     height:1px; 
     background: #CDD1D4;
   }
+
+  @media screen  and (max-width: 600px) {
+   
+    .section1 .first , .section2 .first  {
+      display: block !important;
+    }
+    .section1 img , .section2 img{
+      display :none;
+      background-size: cover;
+    }
+    .section1 ,.section2 ,.footer {
+      height:auto;
+      padding: 0px 5px;
+      background-position: 0px;
+  }
+  .title {
+    font-size: 34px;
+    text-align: center;
+}
+.btn {
+  width: 116px;
+  font-size: 10px;
+}
+.learn {
+  font-size: 12px;
+  width: 116px;
+}
+
+ /* start section 2 */
+ .section2 .icon {
+   display: block ;
+  text-align: center;
+  }
+  /* /start section 3 */
+  .section3{
+  display: flex !important;
+  flex-direction: column-reverse;
+}
+/* start section 4 */
+.section4 .first p {
+  width: 87%;
+}
+.footer .partone {
+  padding-top: 40px;
+  flex-wrap: wrap;
+  justify-content: space-evenly !important;
+}
+.section4 .parttwo{
+  justify-content: center !important;
+}
+
+}
