@@ -237,3 +237,8 @@ align-items: center;
 }
 
 }
+@media screen and (min-width: 1024px){
+  body{
+    background-color: #6F7CB2;
+  }
+}
