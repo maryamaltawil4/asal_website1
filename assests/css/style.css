@@ -10,7 +10,7 @@
 }
 .section1,
 .section2 {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 0px 165px;
 }
 
@@ -36,11 +36,11 @@
 
 .navbar-brand {
   font-size: 26px;
-  font-style: normal;
   font-weight: 900;
   line-height: 38px; /* 146.154% */
-  margin-left: 144px;
-  margin-right: 38px;
+}
+.navbar-brand1{
+  flex-grow: 1;
 }
 p,
 pre {

@@ -12,26 +12,34 @@
 </head>
 
 <body>
-  <div class="section1">
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="section1" id="test" >
+    <nav class="navbar navbar-expand-lg " >
+      <div class="container-fluid d-flex" id="section1">
+
+        <div class="collapse navbar-collapse order-1" id="navbarSupportedContent">
+
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" aria-disabled="true">Contact</a>
+              <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="#">Landing</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li>
+            <div class="search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </div>
           </ul>
-          <button class="btn btn-outline-success" type="submit">Buy Now</button>
+        </div>
+      
+        <div class="order-2 navbar-brand1">
+        
+          <a class="navbar-brand" href="#">landing</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         </div>
       </div>
     </nav>
@@ -146,7 +154,7 @@ Nulla consequat massa quis enim.
 
       <div class="parttwo d-flex justify-content-between mt-2">
         <nav class="navbar navbar-expand-lg ">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -169,12 +177,14 @@ Nulla consequat massa quis enim.
       </div>
     </div>
 
-
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
+
+    <!-- <script src="assests/style.js"></script> -->
+
 
 </body>
 
