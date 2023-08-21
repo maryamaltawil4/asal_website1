@@ -51,6 +51,9 @@ pre {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+.search{
+  display: none;
+}
 .btn {
   width: 160px;
   background-color: var(--color_blue);
@@ -199,6 +202,9 @@ pre {
     width: 116px;
     font-size: 10px;
   }
+  .search{
+    display:block;
+  }
   .learn {
     font-size: 12px;
     width: 116px;
@@ -261,5 +267,8 @@ pre {
   }
   .section4 .parttwo {
     justify-content: center !important;
+  }
+  .search{
+    display:block;
   }
 }
